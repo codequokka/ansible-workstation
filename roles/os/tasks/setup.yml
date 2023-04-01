@@ -1,0 +1,4 @@
+---
+- name: Set up os packages
+  ansible.builtin.import_tasks: setup/os_packages.yml
+  tags: setup_os

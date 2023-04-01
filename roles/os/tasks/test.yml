@@ -1,0 +1,4 @@
+---
+- name: Test os packages
+  ansible.builtin.import_tasks: test/os_packages.yml
+  tags: test_os

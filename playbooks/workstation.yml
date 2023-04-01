@@ -1,0 +1,7 @@
+---
+- name: Set up workstation
+  hosts: workstation
+  become: true
+  roles:
+    - role: os
+      tags: os

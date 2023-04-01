@@ -1,0 +1,8 @@
+{
+    // Files
+    // "files.associations": {
+    //     "**/roles/**/tasks/**.yml": "ansible"
+    // },
+    // Ansible
+    "ansible.python.interpreterPath": ".venv/bin/python3",
+}
