@@ -24,4 +24,4 @@ jobs:
         run: pipenv sync --dev
 
       - name: Run ansible-lint
-        run: pipenv ansible-lint --force-color playbooks
+        run: pipenv run ansible-lint --force-color playbooks
